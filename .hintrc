@@ -3,7 +3,14 @@
     "development"
   ],
   "hints": {
-    "axe/forms": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off",
+        "select-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
     "axe/language": [
       "default",
       {
@@ -11,7 +18,11 @@
       }
     ],
     "meta-viewport": "off",
-    "no-inline-styles": "off",
-    "disown-opener": "off"
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
   }
 }
